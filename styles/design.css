@@ -1,0 +1,41 @@
+header {
+
+}
+a {color:#FFFFFF;
+text-decoration: none;
+}
+a:visited {color:#FFFFFF;}
+
+body {
+
+	background-image: url("../images/black.jpg") ;
+	background-size: cover;
+	   background-repeat:no-repeat;
+
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF
+
+}
+
+#top-nav {
+	text-align: center;
+	font-size: 35px;
+	 
+}
+#top-nav ul {
+
+
+}
+
+#top-nav li {
+
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+
+
+}
