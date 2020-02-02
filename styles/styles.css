@@ -1,0 +1,99 @@
+
+body{
+	padding-top: 72px;
+}
+#top{
+	background-color: #4503fc;
+	color: white;
+    
+
+
+
+}
+#my-nav-text li a{
+	color: white;
+}
+
+.mynavbar{
+	background-color: #3b0ac4;
+	color: white;
+}
+
+
+#portfolio{
+	
+	background-color:white;
+}
+
+#about{
+	
+	background-color:#4503fc;
+	color: white;
+
+	font-size: 2rem;
+}
+
+#contact{
+	
+	background-color:white;
+}
+
+#top,#portfolio,#about,#contact{
+	min-height: 70vh;
+	
+}
+
+#humza{
+	
+	height: 30vh;
+	width: 30vh;
+	border-radius: 50%
+
+}
+
+
+
+#plag{
+	background-color:  #b3b3b3;
+	height: 30vh;
+	width: 30vh;
+	border-radius: 5%;
+}
+
+
+#pae{
+	background-color: blue;
+	border-radius: 5%;
+	height: 25vh;
+	width: 30vh;
+
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+h1{
+	margin-top: 2vh;
+	font-size: 4.5rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+h1,h2{
+	margin-bottom: 3vh;
+}
+
+.dark-titles{
+	color: #4503fc
+
+}
+
+.modal-body img{
+	height: 60vh;
+	width: 35vh;
+}
+
