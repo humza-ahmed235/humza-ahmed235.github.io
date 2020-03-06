@@ -113,20 +113,25 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
 
-                <form>
+                <form method="post" action="https://fgserver.herokuapp.com/mail">
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="text" class="form-control" placeholder="Name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" name="subject" required>
                     </div>
 
 
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" name="message" required> 
+                        </textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send</button>
                 </form>
@@ -150,12 +155,6 @@
           <div class="col col-md-2 text-center">
                 <a href="https://github.com/humzanaut" target="_blank"><i class="fab fa-github"></i></a>
 
-
-          </div>
-
-
-          <div id = "tempEmail" class="col col-md-3 text-center">
-            Email: humza3355@gmail.com
 
           </div>
 
